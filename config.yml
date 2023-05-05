@@ -1,0 +1,8 @@
+upstream_host: "stratum.bchmill.cc"
+upstream_port: 6567
+listen_host: "0.0.0.0"
+listen_port: 3339
+workername_modifier: "my_workername_replace"
+workername_override: myworker
+max_connections: 100
+log_level: INFO
